@@ -24,6 +24,8 @@ screen_y = 720
 
 window = pygame.display.set_mode((screen_x, screen_y))
 
+pygame.display.set_caption("Flappy Bird")
+
 bgOne = pygame.image.load('assets/sprites/720_base.png')
 bgTwo = pygame.image.load('assets/sprites/720_base.png')
 
